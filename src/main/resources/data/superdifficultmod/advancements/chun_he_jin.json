@@ -1,0 +1,40 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "superdifficultmod:onlyalloypickaxe"
+    },
+    "title": {
+      "translate": "advancements.chun_he_jin.title"
+    },
+    "description": {
+      "translate": "advancements.chun_he_jin.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chun_he_jin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "superdifficultmod:onlyalloypickaxe",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "recipes": [
+      "superdifficultmod:onlyalloypackaxecraft"
+    ]
+  }
+}

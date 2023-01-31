@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="superdifficultmod"
+version="0.0.1"
+displayName="折磨生存模组"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="frankrank, MCreator制作"
+description='''
+一个让你生存等级难度倍增的模组，同时也有很多有趣的东西。由frankrank制作。mcreator为制作工具。
+'''
+
+[[dependencies.superdifficultmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

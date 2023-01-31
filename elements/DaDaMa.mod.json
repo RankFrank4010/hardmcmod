@@ -1,0 +1,39 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "大麻药水",
+    "splashName": "大麻喷溅药水",
+    "lingeringName": "大麻滞留药水",
+    "arrowName": "大麻箭",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 1800,
+        "amplifier": 6,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "POISON"
+        },
+        "duration": 3150,
+        "amplifier": 7,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 2500,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

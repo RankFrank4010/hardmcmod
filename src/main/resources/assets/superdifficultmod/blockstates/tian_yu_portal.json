@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "superdifficultmod:block/tian_yu_portal_ew"
+    },
+    "axis=x": {
+      "model": "superdifficultmod:block/tian_yu_portal_ns"
+    }
+  }
+}

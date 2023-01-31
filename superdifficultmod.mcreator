@@ -1,0 +1,165 @@
+{
+  "mod_elements": [
+    {
+      "name": "Onlyalloypickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onlyalloypickaxe"
+    },
+    {
+      "name": "OAP",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oap"
+    },
+    {
+      "name": "DuYe",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "du_ye",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "TianYu",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tian_yu",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "SDK",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sdk"
+    },
+    {
+      "name": "DaDaMa",
+      "type": "potion",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "da_da_ma"
+    },
+    {
+      "name": "DDaMa",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_da_ma"
+    },
+    {
+      "name": "Dama",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dama"
+    },
+    {
+      "name": "DaDaMaYuanCaiLiao",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "da_da_ma_yuan_cai_liao"
+    },
+    {
+      "name": "SiSiWang",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "si_si_wang"
+    },
+    {
+      "name": "DDuPinDaMa",
+      "type": "villagertrade",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_jiao_yi"
+    },
+    {
+      "name": "ChunHeJin",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chun_he_jin"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.da_da_ma": "大麻滞留药水",
+      "biome.superdifficultmod.si_si_wang": "被腐蚀的群系",
+      "block.superdifficultmod.du_ye": "Venom",
+      "item.superdifficultmod.onlyalloypickaxe": "Pure Alloy Pickaxe",
+      "item.minecraft.tipped_arrow.effect.da_da_ma": "大麻箭",
+      "advancements.chun_he_jin.descr": "你打造了一把完全使用合金制作的镐子！",
+      "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
+      "advancements.chun_he_jin.title": "纯合金！",
+      "item.superdifficultmod.d_da_ma": "大麻",
+      "item.minecraft.potion.effect.da_da_ma": "大麻药水",
+      "item.superdifficultmod.tian_yu": "天域的钥匙",
+      "item.superdifficultmod.du_ye_bucket": "Venom Bucket",
+      "fluid.superdifficultmod.du_ye": "Venom"
+    },
+    "zh_cn": {
+      "item.minecraft.lingering_potion.effect.da_da_ma": "大麻滞留药水",
+      "biome.superdifficultmod.si_si_wang": "被腐蚀的群系",
+      "block.superdifficultmod.du_ye": "毒液",
+      "item.superdifficultmod.onlyalloypickaxe": "纯下界合金镐",
+      "item.minecraft.tipped_arrow.effect.da_da_ma": "大麻箭",
+      "advancements.chun_he_jin.descr": "你打造了一把完全使用合金制作的镐子！",
+      "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
+      "advancements.chun_he_jin.title": "纯合金！",
+      "item.superdifficultmod.d_da_ma": "大麻",
+      "item.minecraft.potion.effect.da_da_ma": "大麻药水",
+      "item.superdifficultmod.tian_yu": "天域的钥匙",
+      "item.superdifficultmod.du_ye_bucket": "毒液桶",
+      "fluid.superdifficultmod.du_ye": "毒液"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "superdifficultmod",
+    "modName": "折磨生存模组",
+    "version": "0.0.1",
+    "description": "一个让你生存等级难度倍增的模组，同时也有很多有趣的东西。由frankrank制作。mcreator为制作工具。",
+    "author": "frankrank, MCreator制作",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "tu_biao_2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.difficultmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

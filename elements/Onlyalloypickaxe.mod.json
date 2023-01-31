@@ -1,0 +1,29 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "onlyalloygao",
+    "customModelName": "Normal",
+    "name": "Pure Alloy Pickaxe",
+    "specialInfo": [
+      "made only of alloy"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 500,
+    "efficiency": 80.0,
+    "attackSpeed": 3.0,
+    "enchantability": 8,
+    "damageVsEntity": 7.0,
+    "usageCount": 4062,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
