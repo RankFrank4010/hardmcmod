@@ -23,7 +23,8 @@ public class DaDaMaPotion {
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
 			super(new EffectInstance(Effects.SPEED, 1800, 6, false, true), new EffectInstance(Effects.POISON, 3150, 7, false, true),
-					new EffectInstance(Effects.REGENERATION, 2500, 5, false, true));
+					new EffectInstance(Effects.REGENERATION, 2250, 4, false, true), new EffectInstance(Effects.WITHER, 2050, 5, false, true),
+					new EffectInstance(Effects.NAUSEA, 4000, 3, false, true), new EffectInstance(Effects.WEAKNESS, 3825, 24, false, true));
 			setRegistryName("da_da_ma");
 		}
 	}

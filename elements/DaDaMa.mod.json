@@ -29,8 +29,35 @@
         "effect": {
           "value": "REGENERATION"
         },
-        "duration": 2500,
+        "duration": 2250,
+        "amplifier": 4,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WITHER"
+        },
+        "duration": 2050,
         "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 4000,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WEAKNESS"
+        },
+        "duration": 3825,
+        "amplifier": 24,
         "ambient": false,
         "showParticles": true
       }
