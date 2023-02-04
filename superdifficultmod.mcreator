@@ -101,6 +101,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chun_he_jin"
+    },
+    {
+      "name": "TTianYu",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_tian_yu"
     }
   ],
   "variable_elements": [],
@@ -113,8 +121,10 @@
       "block.superdifficultmod.du_ye": "Venom",
       "item.minecraft.tipped_arrow.effect.da_da_ma": "大麻箭",
       "advancements.chun_he_jin.descr": "你打造了一把完全使用合金制作的镐子！",
+      "advancements.t_tian_yu.descr": "你进入了天域世界",
       "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
       "advancements.chun_he_jin.title": "纯合金！",
+      "advancements.t_tian_yu.title": "天域？",
       "item.superdifficultmod.d_da_ma": "大麻",
       "item.minecraft.potion.effect.da_da_ma": "大麻药水",
       "item.superdifficultmod.tian_yu": "天域的钥匙",
@@ -128,8 +138,10 @@
       "block.superdifficultmod.du_ye": "毒液",
       "item.minecraft.tipped_arrow.effect.da_da_ma": "大麻箭",
       "advancements.chun_he_jin.descr": "你打造了一把完全使用合金制作的镐子！",
+      "advancements.t_tian_yu.descr": "你进入了天域世界",
       "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
       "advancements.chun_he_jin.title": "纯合金！",
+      "advancements.t_tian_yu.title": "天域？",
       "item.superdifficultmod.d_da_ma": "大麻",
       "item.minecraft.potion.effect.da_da_ma": "大麻药水",
       "item.superdifficultmod.tian_yu": "天域的钥匙",
@@ -143,7 +155,7 @@
   },
   "workspaceSettings": {
     "modid": "superdifficultmod",
-    "modName": "折磨生存模组",
+    "modName": "有趣的模组",
     "version": "0.0.1",
     "description": "一个让你生存等级难度倍增的模组，同时也有很多有趣的东西。由frankrank制作。mcreator为制作工具。",
     "author": "frankrank, MCreator制作",

@@ -12,7 +12,7 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 1,
+            "countPrice1": 3,
             "price2": {
               "value": ""
             },
@@ -22,7 +22,7 @@
             },
             "countOffer": 1,
             "level": 1,
-            "maxTrades": 200,
+            "maxTrades": 80,
             "xp": 5,
             "priceMultiplier": 0.05
           }

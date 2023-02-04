@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "superdifficultmod:tian_yu"
+    },
+    "title": {
+      "translate": "advancements.t_tian_yu.title"
+    },
+    "description": {
+      "translate": "advancements.t_tian_yu.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "t_tian_yu": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "superdifficultmod:tian_yu"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:story/enter_the_end"
+}

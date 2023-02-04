@@ -18,7 +18,7 @@
     "flowStrength": 1.0,
     "luminosity": 0,
     "density": 1000,
-    "viscosity": 1000,
+    "viscosity": 700,
     "isGas": false,
     "temperature": 300,
     "type": "LAVA",
@@ -40,7 +40,7 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
-    "frequencyOnChunks": 4,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "Surface"
     ],

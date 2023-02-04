@@ -23,7 +23,7 @@ public class DDuPinDaMaTrade {
 	public static void registerTrades(VillagerTradesEvent event) {
 		Int2ObjectMap<List<VillagerTrades.ITrade>> trades = event.getTrades();
 		if (event.getType() == VillagerProfession.ARMORER) {
-			trades.get(1).add(new BasicTrade(new ItemStack(Items.EMERALD), new ItemStack(DDaMaItem.block), 200, 5, 0.05f));
+			trades.get(1).add(new BasicTrade(new ItemStack(Items.EMERALD, (int) (3)), new ItemStack(DDaMaItem.block), 80, 5, 0.05f));
 		}
 	}
 }

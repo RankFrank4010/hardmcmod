@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "superdifficultmod:onlyalloypickaxe"
     },
@@ -36,5 +35,6 @@
     "recipes": [
       "superdifficultmod:onlyalloypackaxecraft"
     ]
-  }
+  },
+  "parent": "minecraft:nether/find_bastion"
 }
