@@ -4,14 +4,14 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="superdifficultmod"
-version="0.0.1"
+version="0.0.2"
 displayName="有趣的模组"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://gitee.com/frankrank/harmcmod"
 logoFile="logo.png"
-authors="frankrank, MCreator制作"
+authors="frankrank"
 description='''
-一个让你生存等级难度倍增的模组，同时也有很多有趣的东西。由frankrank制作。mcreator为制作工具。
+一个让你生存等级难度倍增的模组，同时也有很多有趣的东西。由frankrank制作。
 '''
 
 [[dependencies.superdifficultmod]]

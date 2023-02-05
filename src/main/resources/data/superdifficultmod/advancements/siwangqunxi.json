@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "translate": "advancements.siwangqunxi.title"
+    },
+    "description": {
+      "translate": "advancements.siwangqunxi.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "siwangqunxi": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "superdifficultmod:si_si_wang"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}
