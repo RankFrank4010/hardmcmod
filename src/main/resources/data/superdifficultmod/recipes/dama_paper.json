@@ -1,15 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0"
+    " 1",
+    "2 "
   ],
   "key": {
-    "0": {
+    "1": {
+      "item": "superdifficultmod:d_da_ma"
+    },
+    "2": {
       "item": "superdifficultmod:d_da_ma"
     }
   },
   "result": {
     "item": "minecraft:paper",
-    "count": 10
+    "count": 15
   }
 }
