@@ -125,6 +125,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "damapaper"
+    },
+    {
+      "name": "Damapige",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damapige"
+    },
+    {
+      "name": "Damaran",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damaran"
     }
   ],
   "variable_elements": [],

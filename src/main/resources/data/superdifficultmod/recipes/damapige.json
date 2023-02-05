@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "superdifficultmod:d_da_ma"
+    },
+    "3": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather",
+    "count": 3
+  }
+}
