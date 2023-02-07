@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ikunchangpian",
+    "name": "坤坤真爱粉唱片",
+    "description": "小黑子勿用！",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "entity.chicken.step"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

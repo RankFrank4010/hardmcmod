@@ -1,6 +1,7 @@
 {
   "item.minecraft.lingering_potion.effect.da_da_ma": "大麻滞留药水",
   "advancements.dragonegg.title": "这是啥？",
+  "item.superdifficultmod.onlyforikun": "坤坤真爱粉唱片",
   "block.superdifficultmod.du_ye": "毒液",
   "item.minecraft.tipped_arrow.effect.da_da_ma": "大麻箭",
   "advancements.chun_he_jin.descr": "你打造了一把完全使用合金制作的镐子！",
@@ -25,5 +26,6 @@
   "item.minecraft.potion.effect.da_da_ma": "大麻药水",
   "item.superdifficultmod.tian_yu": "天域的钥匙",
   "item.superdifficultmod.du_ye_bucket": "毒液桶",
+  "item.superdifficultmod.onlyforikun.desc": "小黑子勿用！",
   "fluid.superdifficultmod.du_ye": "毒液"
 }
