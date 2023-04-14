@@ -9,7 +9,7 @@
       "value": "MISC"
     },
     "music": {
-      "value": "entity.chicken.step"
+      "value": "entity.chicken.ambient"
     },
     "specialInfo": [],
     "hasGlow": true

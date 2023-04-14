@@ -189,6 +189,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "onlyforikun"
+    },
+    {
+      "name": "Brunchoftree",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brunchoftree"
+    },
+    {
+      "name": "YYouBing",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y_you_bing"
     }
   ],
   "variable_elements": [],
@@ -208,19 +224,21 @@
       "advancements.duyechengjiu.descr": "You got a“Venom Bucket”",
       "biome.superdifficultmod.si_si_wang": "被腐蚀的群系",
       "advancements.baoenmelon.descr": "What a good melon！",
+      "item.superdifficultmod.brunchoftree": "树枝",
       "advancements.ikunegg.descr": "Eugene！",
       "item.superdifficultmod.onlyalloypickaxe": "Pure Netherite Pickaxe",
       "advancements.gua.title": "你这瓜保熟吗？",
       "advancements.siwangqunxi.title": "这是什么鬼地方？",
       "advancements.duyechengjiu.title": "这是什么鬼液体？",
       "advancements.t_tian_yu.descr": "你进入了天域世界",
-      "advancements.siwangqunxi.descr": "你来到了“死亡群系”",
+      "advancements.siwangqunxi.descr": "欢迎来到“死亡群系“",
       "advancements.gua.descr": "我这瓜不熟能卖你？",
       "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
       "advancements.chun_he_jin.title": "Only Netherite！",
       "advancements.dragonegg.descr": "这东西能吃吗？",
       "item.minecraft.potion.effect.da_da_ma": "大麻药水",
       "item.superdifficultmod.tian_yu": "天域的钥匙",
+      "item.superdifficultmod.y_you_bing": "油饼",
       "item.superdifficultmod.du_ye_bucket": "Venom Bucket",
       "item.superdifficultmod.onlyforikun.desc": "小黑子勿用！",
       "fluid.superdifficultmod.du_ye": "Venom"
@@ -239,6 +257,7 @@
       "advancements.duyechengjiu.descr": "你获得了一个“毒液桶”",
       "biome.superdifficultmod.si_si_wang": "被腐蚀的群系",
       "advancements.baoenmelon.descr": "绝世好瓜哎！",
+      "item.superdifficultmod.brunchoftree": "树枝",
       "advancements.ikunegg.descr": "我家哥哥下的蛋你别吃！",
       "item.superdifficultmod.onlyalloypickaxe": "纯下界合金镐",
       "advancements.gua.title": "你这瓜保熟吗？",
@@ -252,6 +271,7 @@
       "advancements.dragonegg.descr": "这东西能吃吗？",
       "item.minecraft.potion.effect.da_da_ma": "大麻药水",
       "item.superdifficultmod.tian_yu": "天域的钥匙",
+      "item.superdifficultmod.y_you_bing": "油饼",
       "item.superdifficultmod.du_ye_bucket": "毒液桶",
       "item.superdifficultmod.onlyforikun.desc": "小黑子勿用！",
       "fluid.superdifficultmod.du_ye": "毒液"
