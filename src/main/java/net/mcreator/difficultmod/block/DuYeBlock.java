@@ -35,15 +35,22 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.FlowingFluidBlock;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.difficultmod.procedures.DuYeDangShengWuWanJiaPengZhuangFangKuaiShiProcedure;
 import net.mcreator.difficultmod.SuperdifficultmodModElements;
 
+import java.util.stream.Stream;
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @SuperdifficultmodModElements.ModElement.Tag
 public class DuYeBlock extends SuperdifficultmodModElements.ModElement {
@@ -84,16 +91,27 @@ public class DuYeBlock extends SuperdifficultmodModElements.ModElement {
 						.builder(new ResourceLocation("superdifficultmod:blocks/duye"), new ResourceLocation("superdifficultmod:blocks/jiashui"))
 						.luminosity(0).density(1000).viscosity(700).temperature(300)
 
-						.rarity(Rarity.UNCOMMON))
+						.rarity(Rarity.RARE))
 				.explosionResistance(100f).canMultiply().tickRate(10).levelDecreasePerBlock(1).slopeFindDistance(4).bucket(() -> bucket)
 				.block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("du_ye");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("du_ye_flowing");
 		elements.blocks
 				.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.LAVA).hardnessAndResistance(100f).setLightLevel(s -> 0)) {
+					@Override
+					public void onEntityCollision(BlockState blockstate, World world, BlockPos pos, Entity entity) {
+						super.onEntityCollision(blockstate, world, pos, entity);
+						int x = pos.getX();
+						int y = pos.getY();
+						int z = pos.getZ();
+
+						DuYeDangShengWuWanJiaPengZhuangFangKuaiShiProcedure
+								.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+										(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+					}
 				}.setRegistryName("du_ye"));
 		elements.items.add(() -> new BucketItem(still,
-				new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC).rarity(Rarity.UNCOMMON))
+				new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC).rarity(Rarity.RARE))
 				.setRegistryName("du_ye_bucket"));
 	}
 
@@ -116,7 +134,7 @@ public class DuYeBlock extends SuperdifficultmodModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
-					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(3)));
+					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(2)));
 			event.getRegistry().register(feature.setRegistryName("du_ye_lakes"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("superdifficultmod:du_ye_lakes"), configuredFeature);
 		}

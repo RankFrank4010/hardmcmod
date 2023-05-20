@@ -30,7 +30,7 @@
     "emptySound": {
       "value": ""
     },
-    "rarity": "UNCOMMON",
+    "rarity": "RARE",
     "specialInfo": [],
     "resistance": 100.0,
     "luminance": 0,
@@ -40,10 +40,13 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
-    "frequencyOnChunks": 3,
+    "frequencyOnChunks": 2,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "DuYeDangShengWuWanJiaPengZhuangFangKuaiShi"
+    }
   }
 }

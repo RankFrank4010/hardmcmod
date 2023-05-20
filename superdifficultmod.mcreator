@@ -205,6 +205,82 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "y_you_bing"
+    },
+    {
+      "name": "YYouBingDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y_you_bing_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrunchoftreeDangWuPinBeiHeChengHuoShaoLianShi",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brunchoftree_dang_wu_pin_bei_he_cheng_huo_shao_lian_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrunchoftreeDangWuPinYouWanJiaDiaoLuo",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brunchoftree_dang_wu_pin_you_wan_jia_diao_luo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DuYeDangShengWuWanJiaPengZhuangFangKuaiShi",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "du_ye_dang_sheng_wu_wan_jia_peng_zhuang_fang_kuai_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -216,25 +292,25 @@
       "item.superdifficultmod.onlyforikun": "坤坤真爱粉唱片",
       "block.superdifficultmod.du_ye": "Venom",
       "item.minecraft.tipped_arrow.effect.da_da_ma": "大麻箭",
-      "advancements.chun_he_jin.descr": "Only made of Netherite！",
-      "advancements.t_tian_yu.title": "Sky Dimension？",
-      "advancements.baoenmelon.title": "Gold Melon!",
-      "advancements.ikunegg.title": "An egg?",
+      "advancements.chun_he_jin.descr": "你打造了一把完全使用合金制作的镐子！",
+      "advancements.t_tian_yu.title": "天域？",
+      "advancements.baoenmelon.title": "报恩西瓜！",
+      "advancements.ikunegg.title": "小黑子！",
       "item.superdifficultmod.d_da_ma": "大麻",
-      "advancements.duyechengjiu.descr": "You got a“Venom Bucket”",
+      "advancements.duyechengjiu.descr": "你获得了一个“毒液桶”",
       "biome.superdifficultmod.si_si_wang": "被腐蚀的群系",
-      "advancements.baoenmelon.descr": "What a good melon！",
+      "advancements.baoenmelon.descr": "绝世好瓜哎！",
       "item.superdifficultmod.brunchoftree": "树枝",
-      "advancements.ikunegg.descr": "Eugene！",
-      "item.superdifficultmod.onlyalloypickaxe": "Pure Netherite Pickaxe",
+      "advancements.ikunegg.descr": "我家哥哥下的蛋你别吃！",
+      "item.superdifficultmod.onlyalloypickaxe": "Pure Alloy Pickaxe",
       "advancements.gua.title": "你这瓜保熟吗？",
       "advancements.siwangqunxi.title": "这是什么鬼地方？",
       "advancements.duyechengjiu.title": "这是什么鬼液体？",
       "advancements.t_tian_yu.descr": "你进入了天域世界",
-      "advancements.siwangqunxi.descr": "欢迎来到“死亡群系“",
+      "advancements.siwangqunxi.descr": "你来到了“死亡群系”",
       "advancements.gua.descr": "我这瓜不熟能卖你？",
       "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
-      "advancements.chun_he_jin.title": "Only Netherite！",
+      "advancements.chun_he_jin.title": "纯合金！",
       "advancements.dragonegg.descr": "这东西能吃吗？",
       "item.minecraft.potion.effect.da_da_ma": "大麻药水",
       "item.superdifficultmod.tian_yu": "天域的钥匙",
@@ -284,20 +360,20 @@
   "workspaceSettings": {
     "modid": "superdifficultmod",
     "modName": "有趣的模组",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "description": "一个让你生存等级难度倍增的模组，同时也有很多有趣的东西。由frankrank制作。",
     "author": "frankrank",
     "websiteURL": "https://gitee.com/frankrank/harmcmod",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "tu_biao_2",
+    "modPicture": "tu_biao_",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Mcreator",
     "modElementsPackage": "net.mcreator.difficultmod",
     "lockBaseModFiles": false
   },

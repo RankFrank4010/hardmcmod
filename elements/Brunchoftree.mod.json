@@ -22,8 +22,8 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 10.0,
     "specialInfo": [
       "你有没有树枝！"
     ],
@@ -31,6 +31,12 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onCrafted": {
+      "name": "BrunchoftreeDangWuPinBeiHeChengHuoShaoLianShi"
+    },
+    "onDroppedByPlayer": {
+      "name": "BrunchoftreeDangWuPinYouWanJiaDiaoLuo"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
