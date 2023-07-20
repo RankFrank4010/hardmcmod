@@ -281,6 +281,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Caixukun",
+      "type": "painting",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caixukun"
     }
   ],
   "variable_elements": [],
