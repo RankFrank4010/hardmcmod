@@ -297,6 +297,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bgxx"
+    },
+    {
+      "name": "Bgxxphoto",
+      "type": "painting",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bgxxphoto"
+    },
+    {
+      "name": "Bgxxblock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bgxxblock"
     }
   ],
   "variable_elements": [],
@@ -323,6 +339,7 @@
       "advancements.gua.title": "你这瓜保熟吗？",
       "advancements.siwangqunxi.title": "这是什么鬼地方？",
       "advancements.duyechengjiu.title": "这是什么鬼液体？",
+      "block.superdifficultmod.bgxxblock": "Bgxx on top",
       "advancements.t_tian_yu.descr": "你进入了天域世界",
       "advancements.siwangqunxi.descr": "你来到了“死亡群系”",
       "advancements.gua.descr": "我这瓜不熟能卖你？",
@@ -357,6 +374,7 @@
       "advancements.gua.title": "你这瓜保熟吗？",
       "advancements.siwangqunxi.title": "这是什么鬼地方？",
       "advancements.duyechengjiu.title": "这是什么鬼液体？",
+      "block.superdifficultmod.bgxxblock": "Bgxx on top",
       "advancements.t_tian_yu.descr": "你进入了天域世界",
       "advancements.siwangqunxi.descr": "你来到了“死亡群系”",
       "advancements.gua.descr": "我这瓜不熟能卖你？",

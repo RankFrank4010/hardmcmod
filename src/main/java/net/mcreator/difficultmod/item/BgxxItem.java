@@ -9,7 +9,6 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
@@ -34,7 +33,7 @@ public class BgxxItem extends SuperdifficultmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).isImmuneToFire().rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(null).maxStackSize(1).isImmuneToFire().rarity(Rarity.UNCOMMON));
 			setRegistryName("bgxx");
 		}
 
