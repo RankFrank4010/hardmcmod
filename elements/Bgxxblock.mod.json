@@ -34,7 +34,9 @@
       }
     ],
     "name": "Bgxx on top",
-    "specialInfo": [],
+    "specialInfo": [
+      "114514"
+    ],
     "hardness": 50.0,
     "resistance": 80.0,
     "hasGravity": false,

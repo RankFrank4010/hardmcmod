@@ -45,7 +45,7 @@ public class YYouBingItem extends SuperdifficultmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(25).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(2).saturation(0.2f)
 
 							.build()));

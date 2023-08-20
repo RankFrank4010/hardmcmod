@@ -27,7 +27,7 @@ public class DDaMaItem extends SuperdifficultmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(64).rarity(Rarity.UNCOMMON));
 			setRegistryName("d_da_ma");
 		}
 

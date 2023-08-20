@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "天域？",
-    "achievementDescription": "你进入了天域世界",
+    "achievementDescription": "你是怎么来到这等仙境的！",
     "achievementIcon": {
       "value": "CUSTOM:TianYu"
     },
@@ -11,7 +11,7 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",

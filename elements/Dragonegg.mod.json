@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "这是啥？",
-    "achievementDescription": "这东西能吃吗？",
+    "achievementDescription": "这玩意能吃吗？",
     "achievementIcon": {
       "value": "Blocks.DRAGON_EGG"
     },
