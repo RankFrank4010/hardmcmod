@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 114,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "superdifficultmod:brunchoftree"
+  },
+  "result": {
+    "item": "superdifficultmod:iamqinshihuang"
+  }
+}

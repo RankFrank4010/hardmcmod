@@ -1,0 +1,32 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shu_zhi",
+    "customModelName": "Normal",
+    "name": "Iamqinshihuang",
+    "specialInfo": [
+      "你宁愿相信他，也不相信我是秦始皇。"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 10.0,
+    "attackSpeed": 5.0,
+    "enchantability": 20,
+    "damageVsEntity": 5.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "IamqinshihuangDangShiTiBeiGongJuJiZhongShi"
+    }
+  }
+}
