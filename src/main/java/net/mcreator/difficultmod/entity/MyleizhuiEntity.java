@@ -63,7 +63,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 
 import net.mcreator.difficultmod.item.TianYuItem;
 import net.mcreator.difficultmod.gui.MyhuozhuiGui;
-import net.mcreator.difficultmod.entity.renderer.MyfriendRenderer;
+import net.mcreator.difficultmod.entity.renderer.MyleizhuiRenderer;
 import net.mcreator.difficultmod.block.BgxxblockBlock;
 import net.mcreator.difficultmod.SuperdifficultmodModElements;
 
@@ -73,14 +73,14 @@ import javax.annotation.Nonnull;
 import io.netty.buffer.Unpooled;
 
 @SuperdifficultmodModElements.ModElement.Tag
-public class MyfriendEntity extends SuperdifficultmodModElements.ModElement {
+public class MyleizhuiEntity extends SuperdifficultmodModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MISC)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(1024).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.immuneToFire().size(0.9f, 0.9f)).build("myfriend").setRegistryName("myfriend");
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.size(0.9f, 0.9f)).build("myleizhui").setRegistryName("myleizhui");
 
-	public MyfriendEntity(SuperdifficultmodModElements instance) {
-		super(instance, 37);
-		FMLJavaModLoadingContext.get().getModEventBus().register(new MyfriendRenderer.ModelRegisterHandler());
+	public MyleizhuiEntity(SuperdifficultmodModElements instance) {
+		super(instance, 41);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new MyleizhuiRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
 
@@ -88,7 +88,7 @@ public class MyfriendEntity extends SuperdifficultmodModElements.ModElement {
 	public void initElements() {
 		elements.entities.add(() -> entity);
 		elements.items.add(
-				() -> new SpawnEggItem(entity, -39373, -39322, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("myfriend_spawn_egg"));
+				() -> new SpawnEggItem(entity, -39373, -39322, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("myleizhui_spawn_egg"));
 	}
 
 	@Override
@@ -99,12 +99,12 @@ public class MyfriendEntity extends SuperdifficultmodModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 8);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 512);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 48);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 13);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 4);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 256);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 12);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
-			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 5);
+			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 3);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 2);
 			event.put(entity, ammma.create());
 		}
@@ -117,7 +117,7 @@ public class MyfriendEntity extends SuperdifficultmodModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 256;
+			experienceValue = 128;
 			setNoAI(false);
 			enablePersistence();
 		}
@@ -249,7 +249,7 @@ public class MyfriendEntity extends SuperdifficultmodModElements.ModElement {
 					NetworkHooks.openGui((ServerPlayerEntity) sourceentity, new INamedContainerProvider() {
 						@Override
 						public ITextComponent getDisplayName() {
-							return new StringTextComponent("我的伙伴");
+							return new StringTextComponent("我的累赘");
 						}
 
 						@Override

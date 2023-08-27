@@ -11,6 +11,7 @@
   "advancements.ikunegg.title": "Ikun!",
   "item.superdifficultmod.d_da_ma": "大麻",
   "advancements.duyechengjiu.descr": "你获得了一个“毒液桶”",
+  "entity.superdifficultmod.myleizhui": "我的累赘",
   "biome.superdifficultmod.si_si_wang": "被腐蚀的群系",
   "advancements.baoenmelon.descr": "绝世好瓜哎！",
   "item.superdifficultmod.brunchoftree": "树枝",
@@ -31,10 +32,12 @@
   "item.superdifficultmod.telegramtool": "Telegram",
   "advancements.dragonegg.descr": "这玩意能吃吗？",
   "biome.superdifficultmod.urhuozhui": "伙伴？累赘？",
+  "item.superdifficultmod.myleizhui_spawn_egg": "我的累赘 Spawn Egg",
   "item.minecraft.potion.effect.da_da_ma": "大麻药水",
   "item.superdifficultmod.tian_yu": "天域的钥匙",
   "item.superdifficultmod.y_you_bing": "油饼",
   "item.superdifficultmod.du_ye_bucket": "Venom Bucket",
   "item.superdifficultmod.onlyforikun.desc": "Must Ikun to use it.",
-  "fluid.superdifficultmod.du_ye": "Venom"
+  "fluid.superdifficultmod.du_ye": "Venom",
+  "item.superdifficultmod.bagopen": "打开背包"
 }

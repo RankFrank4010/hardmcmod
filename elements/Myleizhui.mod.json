@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "我的伙伴",
+    "mobName": "我的累赘",
     "mobLabel": "",
     "mobModelName": "Pig",
     "mobModelTexture": "fox.png",
@@ -46,15 +46,15 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 13,
+    "attackStrength": 3,
     "attackKnockback": 2.0,
-    "knockbackResistance": 5.0,
-    "movementSpeed": 8.0,
-    "armorBaseValue": 48.0,
-    "trackingRange": 1024,
+    "knockbackResistance": 3.0,
+    "movementSpeed": 4.0,
+    "armorBaseValue": 12.0,
+    "trackingRange": 256,
     "followRange": 16,
-    "health": 512,
-    "xpAmount": 256,
+    "health": 256,
+    "xpAmount": 128,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "Myhuozhui",
@@ -112,11 +112,15 @@
     "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
-    "spawningProbability": 20,
+    "spawningProbability": 40,
     "mobSpawningType": "misc",
-    "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 2,
-    "restrictionBiomes": [],
+    "minNumberOfMobsPerGroup": 15,
+    "maxNumberOfMobsPerGroup": 80,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Urhuozhui"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

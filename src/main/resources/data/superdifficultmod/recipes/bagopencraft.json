@@ -1,0 +1,19 @@
+{
+  "group": "open_bag",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "superdifficultmod:iamqinshihuang"
+    },
+    "1": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "superdifficultmod:bagopen",
+    "count": 1
+  }
+}
