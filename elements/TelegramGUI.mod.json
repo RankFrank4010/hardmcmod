@@ -1,0 +1,35 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Telegram pocket Edition",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Telegram pocket Edition",
+          "x": 129,
+          "y": 43
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 18,
+      "ox": 10,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

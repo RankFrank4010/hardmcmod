@@ -369,6 +369,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "howtobeqinshihuang"
+    },
+    {
+      "name": "TelegramGUI",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telegram_gui"
+    },
+    {
+      "name": "Myfriend",
+      "type": "livingentity",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "myfriend"
+    },
+    {
+      "name": "Myhuozhui",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "myhuozhui"
     }
   ],
   "variable_elements": [],
@@ -392,11 +416,13 @@
       "item.superdifficultmod.brunchoftree": "树枝",
       "advancements.ikunegg.descr": "It\u0027s kunkun\u0027s egg!",
       "item.superdifficultmod.onlyalloypickaxe": "Pure Netherite Pickaxe",
+      "item.superdifficultmod.myfriend_spawn_egg": "我的伙伴 Spawn Egg",
       "advancements.gua.title": "你这瓜保熟吗？",
       "advancements.siwangqunxi.title": "这是什么鬼地方？",
       "advancements.duyechengjiu.title": "这是什么鬼液体？",
       "block.superdifficultmod.bgxxblock": "Bgxx on top",
       "item.superdifficultmod.iamqinshihuang": "Iamqinshihuang",
+      "entity.superdifficultmod.myfriend": "我的伙伴",
       "advancements.t_tian_yu.descr": "你是怎么来到这等仙境的！",
       "advancements.siwangqunxi.descr": "你来到了“死亡群系”",
       "advancements.gua.descr": "我这瓜不熟能卖你？",
@@ -428,11 +454,13 @@
       "item.superdifficultmod.brunchoftree": "树枝",
       "advancements.ikunegg.descr": "我家哥哥下的蛋你别吃！",
       "item.superdifficultmod.onlyalloypickaxe": "纯下界合金镐",
+      "item.superdifficultmod.myfriend_spawn_egg": "我的伙伴 Spawn Egg",
       "advancements.gua.title": "你这瓜保熟吗？",
       "advancements.siwangqunxi.title": "这是什么鬼地方？",
       "advancements.duyechengjiu.title": "这是什么鬼液体？",
       "block.superdifficultmod.bgxxblock": "Bgxx on top",
       "item.superdifficultmod.iamqinshihuang": "Iamqinshihuang",
+      "entity.superdifficultmod.myfriend": "我的伙伴",
       "advancements.t_tian_yu.descr": "你进入了天域世界",
       "advancements.siwangqunxi.descr": "你来到了“死亡群系”",
       "advancements.gua.descr": "我这瓜不熟能卖你？",
