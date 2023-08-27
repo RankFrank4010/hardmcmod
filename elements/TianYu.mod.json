@@ -263,6 +263,9 @@
       },
       {
         "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "CUSTOM:Urhuozhui"
       }
     ],
     "worldGenType": "End like gen",
@@ -273,7 +276,7 @@
       "value": "Blocks.FLOWING_WATER"
     },
     "canRespawnHere": false,
-    "hasFog": false,
+    "hasFog": true,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",

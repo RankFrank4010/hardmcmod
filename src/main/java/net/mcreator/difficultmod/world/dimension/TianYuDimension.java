@@ -117,6 +117,10 @@ public class TianYuDimension extends SuperdifficultmodModElements.ModElement {
 				.getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("flower_forest")).getGenerationSettings().getSurfaceBuilder().get()
 				.getConfig().getUnder().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("superdifficultmod:urhuozhui")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("superdifficultmod:urhuozhui")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("cold_ocean")).getGenerationSettings().getSurfaceBuilder().get()
 				.getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("cold_ocean")).getGenerationSettings().getSurfaceBuilder().get()
@@ -426,7 +430,7 @@ public class TianYuDimension extends SuperdifficultmodModElements.ModElement {
 
 			@Override
 			public boolean func_230493_a_(int x, int y) {
-				return false;
+				return true;
 			}
 		};
 		DeferredWorkQueue.runLater(() -> {

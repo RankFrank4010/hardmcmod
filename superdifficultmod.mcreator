@@ -393,6 +393,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "myhuozhui"
+    },
+    {
+      "name": "Telegramtool",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telegramtool"
+    },
+    {
+      "name": "Urhuozhui",
+      "type": "biome",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urhuozhui"
     }
   ],
   "variable_elements": [],
@@ -428,7 +444,9 @@
       "advancements.gua.descr": "我这瓜不熟能卖你？",
       "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
       "advancements.chun_he_jin.title": "Pure netherite!",
+      "item.superdifficultmod.telegramtool": "Telegram",
       "advancements.dragonegg.descr": "这玩意能吃吗？",
+      "biome.superdifficultmod.urhuozhui": "伙伴？累赘？",
       "item.minecraft.potion.effect.da_da_ma": "大麻药水",
       "item.superdifficultmod.tian_yu": "天域的钥匙",
       "item.superdifficultmod.y_you_bing": "油饼",
@@ -466,7 +484,9 @@
       "advancements.gua.descr": "我这瓜不熟能卖你？",
       "item.minecraft.splash_potion.effect.da_da_ma": "大麻喷溅药水",
       "advancements.chun_he_jin.title": "纯合金！",
+      "item.superdifficultmod.telegramtool": "Telegram",
       "advancements.dragonegg.descr": "这东西能吃吗？",
+      "biome.superdifficultmod.urhuozhui": "伙伴？累赘？",
       "item.minecraft.potion.effect.da_da_ma": "大麻药水",
       "item.superdifficultmod.tian_yu": "天域的钥匙",
       "item.superdifficultmod.y_you_bing": "油饼",
