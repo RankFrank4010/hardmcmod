@@ -76,7 +76,7 @@ import io.netty.buffer.Unpooled;
 public class MyleizhuiEntity extends SuperdifficultmodModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
-			.size(0.9f, 0.9f)).build("myleizhui").setRegistryName("myleizhui");
+			.size(0.6f, 1.8f)).build("myleizhui").setRegistryName("myleizhui");
 
 	public MyleizhuiEntity(SuperdifficultmodModElements instance) {
 		super(instance, 41);
@@ -130,17 +130,17 @@ public class MyleizhuiEntity extends SuperdifficultmodModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 5, false) {
+			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 5, true) {
 				@Override
 				protected double getAttackReachSqr(LivingEntity entity) {
 					return (double) (4.0 + entity.getWidth() * entity.getWidth());
 				}
 			});
-			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1.2));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(5, new SwimGoal(this));
-			this.goalSelector.addGoal(6, new TemptGoal(this, 2, Ingredient.fromItems(TianYuItem.block), false));
+			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 1.2));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(6, new SwimGoal(this));
+			this.goalSelector.addGoal(7, new TemptGoal(this, 2, Ingredient.fromItems(TianYuItem.block), true));
 		}
 
 		@Override

@@ -443,7 +443,7 @@
       "advancements.dragonegg.title": "这是啥？",
       "item.superdifficultmod.bgxx": "Bgxx",
       "item.superdifficultmod.onlyforikun": "Only for ikun",
-      "block.superdifficultmod.du_ye": "Venom",
+      "block.superdifficultmod.du_ye": "核废水",
       "item.minecraft.tipped_arrow.effect.da_da_ma": "大麻箭",
       "advancements.chun_he_jin.descr": "你打造了一把完全使用合金制作的镐子！",
       "advancements.t_tian_yu.title": "天域？",
@@ -478,7 +478,7 @@
       "item.superdifficultmod.y_you_bing": "油饼",
       "item.superdifficultmod.du_ye_bucket": "Venom Bucket",
       "item.superdifficultmod.onlyforikun.desc": "Must Ikun to use it.",
-      "fluid.superdifficultmod.du_ye": "Venom",
+      "fluid.superdifficultmod.du_ye": "核废水桶",
       "item.superdifficultmod.bagopen": "打开背包"
     },
     "zh_cn": {

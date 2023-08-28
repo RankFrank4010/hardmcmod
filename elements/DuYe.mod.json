@@ -16,11 +16,11 @@
       "value": "EXPLOSION_NORMAL"
     },
     "flowStrength": 1.0,
-    "luminosity": 0,
-    "density": 1000,
-    "viscosity": 700,
+    "luminosity": 5,
+    "density": 200,
+    "viscosity": 400,
     "isGas": false,
-    "temperature": 300,
+    "temperature": 200,
     "type": "LAVA",
     "generateBucket": true,
     "textureBucket": "",
@@ -35,16 +35,18 @@
     "resistance": 100.0,
     "luminance": 0,
     "lightOpacity": 1,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "tickRate": 10,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
     "frequencyOnChunks": 2,
-    "spawnWorldTypes": [
-      "Surface"
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SiSiWang"
+      }
     ],
-    "restrictionBiomes": [],
     "onEntityCollides": {
       "name": "DuYeDangShengWuWanJiaPengZhuangFangKuaiShi"
     }

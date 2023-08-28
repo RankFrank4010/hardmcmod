@@ -9,8 +9,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.renderer.entity.model.PigModel;
-import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.model.BipedModel;
+import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
+import net.minecraft.client.renderer.entity.BipedRenderer;
 
 import net.mcreator.difficultmod.entity.MyleizhuiEntity;
 
@@ -20,14 +21,17 @@ public class MyleizhuiRenderer {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
-			RenderingRegistry.registerEntityRenderingHandler(MyleizhuiEntity.entity,
-					renderManager -> new MobRenderer(renderManager, new PigModel(), 0.5f) {
+			RenderingRegistry.registerEntityRenderingHandler(MyleizhuiEntity.entity, renderManager -> {
+				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
+					@Override
+					public ResourceLocation getEntityTexture(Entity entity) {
+						return new ResourceLocation("superdifficultmod:textures/entities/fox.png");
+					}
+				};
+				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
 
-						@Override
-						public ResourceLocation getEntityTexture(Entity entity) {
-							return new ResourceLocation("superdifficultmod:textures/entities/fox.png");
-						}
-					});
+				return customRender;
+			});
 		}
 	}
 }
