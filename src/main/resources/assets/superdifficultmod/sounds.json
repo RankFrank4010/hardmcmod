@@ -1,0 +1,12 @@
+{
+  "kunkun_my_idol": {
+    "category": "record",
+    "subtitle": "subtitles.kunkun_my_idol",
+    "sounds": [
+      {
+        "name": "superdifficultmod:hfw1a-e2bd4",
+        "stream": true
+      }
+    ]
+  }
+}

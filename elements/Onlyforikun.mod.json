@@ -9,7 +9,7 @@
       "value": "MISC"
     },
     "music": {
-      "value": "entity.chicken.ambient"
+      "value": "CUSTOM:kunkun_my_idol"
     },
     "specialInfo": [],
     "hasGlow": true

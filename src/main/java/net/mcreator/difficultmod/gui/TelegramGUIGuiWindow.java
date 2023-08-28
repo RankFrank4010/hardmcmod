@@ -5,12 +5,16 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.difficultmod.SuperdifficultmodMod;
 
 import java.util.HashMap;
 
@@ -31,8 +35,8 @@ public class TelegramGUIGuiWindow extends ContainerScreen<TelegramGUIGui.GuiCont
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
-		this.ySize = 166;
+		this.xSize = 200;
+		this.ySize = 200;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("superdifficultmod:textures/screens/telegram_gui.png");
@@ -72,7 +76,7 @@ public class TelegramGUIGuiWindow extends ContainerScreen<TelegramGUIGui.GuiCont
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Telegram pocket Edition", 3, 6, -16777216);
+		this.font.drawString(ms, "Telegram pocket Edition", 4, 5, -16777216);
 	}
 
 	@Override
@@ -85,5 +89,11 @@ public class TelegramGUIGuiWindow extends ContainerScreen<TelegramGUIGui.GuiCont
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+		this.addButton(new Button(this.guiLeft + 215, this.guiTop + -15, 72, 20, new StringTextComponent("每天赚1W，爽歪歪"), e -> {
+			if (true) {
+				SuperdifficultmodMod.PACKET_HANDLER.sendToServer(new TelegramGUIGui.ButtonPressedMessage(0, x, y, z));
+				TelegramGUIGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }

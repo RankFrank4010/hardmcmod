@@ -46,6 +46,8 @@ public class SuperdifficultmodModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public SuperdifficultmodModElements() {
+		sounds.put(new ResourceLocation("superdifficultmod", "kunkun_my_idol"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("superdifficultmod", "kunkun_my_idol")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("superdifficultmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

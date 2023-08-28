@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
-    "height": 166,
+    "width": 200,
+    "height": 200,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -19,8 +19,22 @@
             "falpha": 0.0
           },
           "name": "Telegram pocket Edition",
-          "x": 129,
-          "y": 43
+          "x": 118,
+          "y": 25
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "每天赚1W，爽歪歪",
+          "onClick": {
+            "name": "IamqinshihuangDangShiTiBeiGongJuJiZhongShi"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "每天赚1W，爽歪歪",
+          "x": 329,
+          "y": 5
         }
       }
     ],

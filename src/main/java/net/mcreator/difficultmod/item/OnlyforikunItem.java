@@ -2,7 +2,6 @@
 package net.mcreator.difficultmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -31,7 +30,7 @@ public class OnlyforikunItem extends SuperdifficultmodModElements.ModElement {
 
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.chicken.ambient")),
+			super(0, SuperdifficultmodModElements.sounds.get(new ResourceLocation("superdifficultmod:kunkun_my_idol")),
 					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("onlyforikun");
 		}
