@@ -36,6 +36,19 @@
           "x": 329,
           "y": 5
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Telegram服务器维护中...",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Telegram服务器维护中...",
+          "x": 160,
+          "y": 107
+        }
       }
     ],
     "gridSettings": {

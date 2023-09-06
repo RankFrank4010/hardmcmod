@@ -3,7 +3,7 @@
   "_type": "livingentity",
   "definition": {
     "mobName": "我的累赘",
-    "mobLabel": "",
+    "mobLabel": "我的累赘",
     "mobModelName": "Biped",
     "mobModelTexture": "fox.png",
     "mobModelGlowTexture": "",

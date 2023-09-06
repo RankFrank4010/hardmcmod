@@ -119,6 +119,8 @@ public class MyleizhuiEntity extends SuperdifficultmodModElements.ModElement {
 			super(type, world);
 			experienceValue = 128;
 			setNoAI(false);
+			setCustomName(new StringTextComponent("我的累赘"));
+			setCustomNameVisible(true);
 			enablePersistence();
 		}
 

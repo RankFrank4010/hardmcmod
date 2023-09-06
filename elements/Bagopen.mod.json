@@ -29,7 +29,7 @@
     ],
     "hasGlow": true,
     "guiBoundTo": "Myhuozhui",
-    "inventorySize": 0,
+    "inventorySize": 32,
     "inventoryStackSize": 64,
     "isFood": false,
     "nutritionalValue": 4,

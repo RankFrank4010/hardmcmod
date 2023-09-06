@@ -172,7 +172,7 @@ public class BagopenItem extends SuperdifficultmodModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(0) {
+			return new ItemStackHandler(32) {
 				@Override
 				public int getSlotLimit(int slot) {
 					return 64;

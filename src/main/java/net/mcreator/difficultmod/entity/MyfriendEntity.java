@@ -99,7 +99,7 @@ public class MyfriendEntity extends SuperdifficultmodModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 8);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 5);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 512);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 48);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 13);

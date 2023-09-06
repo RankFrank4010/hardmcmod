@@ -8,5 +8,15 @@
         "stream": true
       }
     ]
+  },
+  "mybrother_laoda": {
+    "category": "music",
+    "subtitle": "subtitles.mybrother_laoda",
+    "sounds": [
+      {
+        "name": "superdifficultmod:see-u-again-wenzi-ogg",
+        "stream": true
+      }
+    ]
   }
 }

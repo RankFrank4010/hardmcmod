@@ -77,6 +77,7 @@ public class TelegramGUIGuiWindow extends ContainerScreen<TelegramGUIGui.GuiCont
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "Telegram pocket Edition", 4, 5, -16777216);
+		this.font.drawString(ms, "Telegram\u670D\u52A1\u5668\u7EF4\u62A4\u4E2D...", 46, 87, -12829636);
 	}
 
 	@Override

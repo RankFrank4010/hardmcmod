@@ -48,6 +48,8 @@ public class SuperdifficultmodModElements {
 	public SuperdifficultmodModElements() {
 		sounds.put(new ResourceLocation("superdifficultmod", "kunkun_my_idol"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("superdifficultmod", "kunkun_my_idol")));
+		sounds.put(new ResourceLocation("superdifficultmod", "mybrother_laoda"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("superdifficultmod", "mybrother_laoda")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("superdifficultmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
