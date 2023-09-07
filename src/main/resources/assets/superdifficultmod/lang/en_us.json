@@ -17,6 +17,7 @@
   "advancements.baoenmelon.descr": "绝世好瓜哎！",
   "item.superdifficultmod.brunchoftree": "树枝",
   "advancements.ikunegg.descr": "It\u0027s kunkun\u0027s egg!",
+  "advancements.laodamybrotheriamsomissu.title": "劳大去打复活赛了",
   "item.superdifficultmod.onlyalloypickaxe": "Pure Netherite Pickaxe",
   "item.superdifficultmod.myfriend_spawn_egg": "我的伙伴 Spawn Egg",
   "advancements.gua.title": "你这瓜保熟吗？",
@@ -43,5 +44,6 @@
   "item.superdifficultmod.du_ye_bucket": "Venom Bucket",
   "item.superdifficultmod.onlyforikun.desc": "小黑子勿用！",
   "fluid.superdifficultmod.du_ye": "核废水桶",
-  "item.superdifficultmod.bagopen": "打开背包"
+  "item.superdifficultmod.bagopen": "打开背包",
+  "advancements.laodamybrotheriamsomissu.descr": "See you again"
 }

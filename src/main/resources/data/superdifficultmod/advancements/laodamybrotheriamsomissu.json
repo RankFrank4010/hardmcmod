@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "superdifficultmod:imissulaoda"
+    },
+    "title": {
+      "translate": "advancements.laodamybrotheriamsomissu.title"
+    },
+    "description": {
+      "translate": "advancements.laodamybrotheriamsomissu.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "laodamybrotheriamsomissu": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "superdifficultmod:imissulaoda",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "superdifficultmod:t_tian_yu"
+}

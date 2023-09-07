@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "superdifficultmod:tian_yu"
+  },
+  "addition": {
+    "item": "superdifficultmod:d_da_ma"
+  },
+  "result": {
+    "item": "superdifficultmod:imissulaoda"
+  }
+}

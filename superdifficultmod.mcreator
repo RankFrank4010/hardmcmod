@@ -441,6 +441,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "imissulaoda"
+    },
+    {
+      "name": "Laodamybrotheriamsomissu",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laodamybrotheriamsomissu"
+    },
+    {
+      "name": "Laodahua",
+      "type": "painting",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laodahua"
+    },
+    {
+      "name": "Laodabackpei",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laodabackpei"
     }
   ],
   "variable_elements": [],
@@ -482,6 +506,7 @@
       "advancements.baoenmelon.descr": "绝世好瓜哎！",
       "item.superdifficultmod.brunchoftree": "树枝",
       "advancements.ikunegg.descr": "It\u0027s kunkun\u0027s egg!",
+      "advancements.laodamybrotheriamsomissu.title": "劳大去打复活赛了",
       "item.superdifficultmod.onlyalloypickaxe": "Pure Netherite Pickaxe",
       "item.superdifficultmod.myfriend_spawn_egg": "我的伙伴 Spawn Egg",
       "advancements.gua.title": "你这瓜保熟吗？",
@@ -508,7 +533,8 @@
       "item.superdifficultmod.du_ye_bucket": "Venom Bucket",
       "item.superdifficultmod.onlyforikun.desc": "小黑子勿用！",
       "fluid.superdifficultmod.du_ye": "核废水桶",
-      "item.superdifficultmod.bagopen": "打开背包"
+      "item.superdifficultmod.bagopen": "打开背包",
+      "advancements.laodamybrotheriamsomissu.descr": "See you again"
     },
     "zh_cn": {
       "item.minecraft.lingering_potion.effect.da_da_ma": "大麻滞留药水",
@@ -529,6 +555,7 @@
       "advancements.baoenmelon.descr": "绝世好瓜哎！",
       "item.superdifficultmod.brunchoftree": "树枝",
       "advancements.ikunegg.descr": "我家哥哥下的蛋你别吃！",
+      "advancements.laodamybrotheriamsomissu.title": "劳大去打复活赛了",
       "item.superdifficultmod.onlyalloypickaxe": "纯下界合金镐",
       "item.superdifficultmod.myfriend_spawn_egg": "我的伙伴 Spawn Egg",
       "advancements.gua.title": "你这瓜保熟吗？",
@@ -555,7 +582,8 @@
       "item.superdifficultmod.du_ye_bucket": "毒液桶",
       "item.superdifficultmod.onlyforikun.desc": "小黑子勿用！",
       "fluid.superdifficultmod.du_ye": "毒液",
-      "item.superdifficultmod.bagopen": "Telegram"
+      "item.superdifficultmod.bagopen": "Telegram",
+      "advancements.laodamybrotheriamsomissu.descr": "See you again"
     }
   },
   "foldersRoot": {
